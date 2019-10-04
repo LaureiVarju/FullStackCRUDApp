@@ -1,8 +1,8 @@
-#The file: dilzell-capstone-attempt-2.zip 
-is the back-end spring boot java portion of this project
+# The file: dilzell-capstone-attempt-2.zip 
+## is the back-end java portion of this project utilizing spring and spring boot. It was tested with a MySQL server
 
 
-## AngularSpringbootClient
+# AngularSpringbootClient
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0-rc.0.
 
