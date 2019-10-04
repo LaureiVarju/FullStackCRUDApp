@@ -1,0 +1,71 @@
+<nav class="navbar mybg navbar-expand-sm">
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <div class="navbar-brand">
+      <a class="navbar-item">
+        <img src="assets/logo.png" />
+      </a>
+    </div>
+    <li class="nav-item" style="margin-left: 10px;">
+      <a
+        routerLink="add"
+        class="btn btn-lg btn-success active"
+        role="button"
+        routerLinkActive="active"
+        >Add Product</a
+      >
+    </li>
+    <!-- <li class="nav-item" style="margin-left: 10px;">
+      <a
+        routerLink="details"
+        class="btn btn-lg btn-warning active"
+        role="button"
+        routerLinkActive="active"
+        >Update Product</a
+      >
+    </li> -->
+    <li class="nav-item" style="margin-left: 10px;">
+      <a
+        routerLink="products"
+        class="btn btn-md btn-info newbut active"
+        role="button"
+        routerLinkActive="active"
+        >Products</a
+      >
+    </li>
+    <li class="nav-item" style="margin-left: 10px;">
+      <a
+        routerLink="categories"
+        class="btn btn-md btn-info newbut active"
+        role="button"
+        routerLinkActive="active"
+        >Categories</a
+      >
+    </li>
+    <li class="nav-item" style="margin-left: 10px;">
+      <a
+        routerLink="suppliers"
+        class="btn btn-md btn-info newbut active"
+        role="button"
+        routerLinkActive="active"
+        >Suppliers</a
+      >
+    </li>
+    <li class="nav-item" style="margin-left: 10px;">
+      <a
+        href="http://localhost:8080/api/v1/products/pricedesc"
+        class="btn btn-md btn-info newbut active"
+        role="button"
+        routerLinkActive="active"
+        >Test Sort by price</a
+      >
+    </li>
+  </ul>
+</nav>
+<div id="grad">
+  <div class="container">
+    <!-- <h2>{{ title }}</h2>
+<hr /> -->
+    <router-outlet></router-outlet>
+  </div>
+</div>

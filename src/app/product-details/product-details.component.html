@@ -1,0 +1,32 @@
+<h2>Update Product</h2>
+<div *ngIf="product">
+  <div><label>Id: </label> {{ product.id }}</div>
+  <div><label>Name: </label> {{ product.name }}</div>
+  <div><label>Catgeory: </label> {{ product.category.name }}</div>
+  <div><label>Full Price: </label> {{ product.fullprice }}</div>
+  <div><label>Sale Price: </label> {{ product.saleprice }}</div>
+  <div>
+    <label>Discount Percentage: </label>
+    {{ product.discountPercentage | percent }}
+  </div>
+  <div><label>Availability: </label> {{ product.availability }}</div>
+  <div><label>Supplier: </label> {{ product.supplier.name }}</div>
+
+  <!-- <span
+    class="button is-small btn-primary"
+    *ngIf="productt.active"
+    (click)="updateProduct()"
+    >Inactive</span
+  > -->
+
+  <!-- <span
+    class="button is-small btn-primary"
+    *ngIf="!employee.active"
+    (click)="updateActive(true)"
+    >Active</span
+  > -->
+
+  <!-- <span class="button is-small btn-danger" (click)="deleteProduct()"
+    >Delete</span
+  > -->
+</div>
